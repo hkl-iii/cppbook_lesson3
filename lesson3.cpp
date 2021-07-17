@@ -11,7 +11,7 @@ void MultiplyNumbers ()
     cout << "Enter the first number: ";
     cin >> firstNumber;
 
-    cout << "Enter the second number: "
+    cout << "Enter the second number: ";
     cin >> secondNumber;
 
     // Multiply two numbers, store result in a variable 
@@ -20,7 +20,7 @@ void MultiplyNumbers ()
     // Display result
     cout << "Displaying from MultiplyNumbers(): ";
     cout << firstNumber << " x " << secondNumber;
-    cout << " = " <<multiplicationResult << endl;
+    cout << " = " << multiplicationResult << endl;
 }
 int main ()
 {
@@ -32,7 +32,7 @@ int main ()
     cout << "Displaying from main(): ";
 
     // This line will now compile and work!
-    cout << first << " x " << secondNumber;
+    cout << firstNumber << " x " << secondNumber;
     cout << " = " << multiplicationResult << endl;
 
     return 0;
