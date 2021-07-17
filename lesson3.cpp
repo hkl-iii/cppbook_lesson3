@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void MultiplyNumbers ()
 {
-    cout << "This program will help you multiply two numbers" << endl;
-
     cout << "Enter the first number.";
     int firstNumber = 0;
     cin >> firstNumber;
@@ -13,12 +11,22 @@ int main()
     int secondNumber = 0;
     cin >> secondNumber;
 
-    //Multiply two numbers, stire result in a variable 
+    // Multiply two numbers, stire result in a variable 
     int multiplicationResult = firstNumber * secondNumber;
 
-    //Display result
+    // Display result
     cout << firstNumber << " x " << secondNumber;
     cout << " = " << multiplicationResult << endl;
+}
+int main()
+{
+    cout << "This program will help you multiply two numbers." << endl;
+
+    // Call the function that does all the work
+    MultiplyNumbers();
+
+    // cout << firstNumber << " x " << secondNumber;
+    // cout << " = " << multiplicationResult << endl;
 
     return 0;
 }
