@@ -1,5 +1,5 @@
 #include <iostream>
-
+// executing file using .exe does not work in powershell
 int main()
 {
     using namespace std;
