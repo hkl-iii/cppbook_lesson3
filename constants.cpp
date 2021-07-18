@@ -11,5 +11,5 @@ int main()
     cout << "constexpr GetPi() returns value " << GetPi() << endl;
     cout << "constexpr TwicePi() returns value " << TwicePi() << endl;
     
-    return 0;
+    return 0; 
 }
