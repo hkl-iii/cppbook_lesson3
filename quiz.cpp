@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int main ()
-{ 
-unsigned short int gohan  = 33;
-signed int krillin = 33;
-long int vegeta = 9000;
 
-cout << "Baby Gohan's power level is " << gohan << endl;
-cout << "Krillin's power level is " << krillin << endl;
-cout << "But Vegeta's power level is over " <<vegeta << "!!!!" << endl  << endl;
+const float pi = 3.14159;
+
+void FindArea ()
+{   
+    int radius;
+    cout << "Please enter the radius: ";
+    cin >> radius;
+    cout << "The value you entered is: " << radius << endl;
+    cout << "So the area of your circle is " << pi * radius * radius << endl;
+}
 
 
+int main () 
+{
+    FindArea();
 
-
-return 0;
+    return 0;
 }
