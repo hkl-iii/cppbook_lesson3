@@ -10,7 +10,8 @@ void FindArea ()
     cout << "Please enter the radius: ";
     cin >> radius;
     cout << "The value you entered is: " << radius << endl;
-    cout << "So the area of your circle is " << pi * radius * radius << endl;
+    int area = pi * radius * radius;
+    cout << "So the area of your circle is " << area << endl;
 }
 
 
